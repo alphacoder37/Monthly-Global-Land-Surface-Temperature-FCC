@@ -1,0 +1,35 @@
+#y-axis text {
+    transform: scale(1, -1)
+}
+
+.cell {
+    border: 1px solid black;
+}
+.cell:hover {
+    fill: white
+}
+body {
+    text-align: center;
+}
+
+
+#tooltip {
+    opacity: 0.85;
+    border-radius: 15px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: rgb(78, 89, 99);
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+    color: white;
+}
+
+svg {
+    margin-top: -40px;
+}
+
+#legend {
+    margin-top: -80px;
+}
